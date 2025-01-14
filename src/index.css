@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: #101828;
   background-color: #fff;
 
   font-synthesis: none;
@@ -12,8 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+container {
+  width: 1440px;
+  height: 768px;
+}
 body {
+  box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -37,4 +41,8 @@ ol {
 img {
   display: block;
   max-width: 100%;
+}
+button {
+  margin: 0;
+  padding: 0;
 }
